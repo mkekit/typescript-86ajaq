@@ -4,7 +4,7 @@ import VideoPlayerOptions from './VideoPlayerOptions';
 /**
  *
  */
-export default class CliplisterPlayerOptions
+export default class CliplisterPlayerOptions extends VideoPlayerOptions
   implements TCliplisterPlayerOptions
 {
   videoTitle: string;
